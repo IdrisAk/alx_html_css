@@ -16,3 +16,16 @@ aside{
     flex: 1;
     overflow-y: auto;
 }
+ul{
+    list-style: none;
+}
+header{
+    background-color: black;
+}
+ul a{
+    color: aqua;
+}
+footer{
+    background-color: black;
+    color: aqua;
+}
