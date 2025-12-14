@@ -104,6 +104,64 @@ header #call_to_action{
     
 }
 
+.result{
+    width: 100%;
+    padding: var(--header-padding);
+    text-align: center;
+    background-image: url("images/headphones_hero_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.result p,
+.result h1{
+    width: 64%;
+    text-align: center;
+}
+
+.resultbox{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    gap: 30px;
+
+}
+
+.list{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: red;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+.list h1{
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: var(--header-padding);
+    padding-top: 40%;
+}
+.list p{
+    text-align: center;
+    font-size: 0.5rem;
+    padding: var(--header-padding);
+}
+
 .holberton_school-icon-ic_sound{
     font-size: 4rem;
     color: red;
@@ -140,6 +198,12 @@ header #call_to_action{
         flex: 0 0 45%;
     }
 }
+ .resultbox{
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
 
 
 

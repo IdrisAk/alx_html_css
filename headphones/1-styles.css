@@ -134,6 +134,7 @@ header #call_to_action{
     .what_we_do ul{
         width: 100%;
         justify-content: space-between;
+        gap: 30px;
         flex-wrap: wrap;
     }
     .what_we_do ul li{
