@@ -1,3 +1,4 @@
+
 :root {
     --primary-color: red;
     --text-color: white;
@@ -23,6 +24,8 @@ header{
     padding: 20px;
     background-image: url("images/headphones_hero_1.jpg");
     background-color: black;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 .hero{
     display: flex;
@@ -61,6 +64,84 @@ header #call_to_action{
     cursor: pointer;
 }
 
+.what_we_do{
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.what_we_do  p{
+    width: 60%;
+}
+
+.what_we_do  ul{
+    width: 80%;
+    list-style-type: none;
+       
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    
+
+}
+.what_we_do ul li{
+    flex: 1;
+    max-width: 220PX;
+    text-align: center;
+    gap: 30px;
+   
+
+}
+.what_we_do ul li h1{
+    text-align: center;
+    padding: var(--header-padding);
+    margin-bottom: var(--header-padding);
+    
+}
+
+.holberton_school-icon-ic_sound{
+    font-size: 4rem;
+    color: red;
+    
+}
+.holberton_school-icon-ic_music{
+    font-size: 4rem;
+    color: red;
+    
+}
+.holberton_school-icon-ic_video{
+    font-size: 4rem;
+    color: red;
+    
+}
+.holberton_school-icon-ic_hearing{
+    font-size: 4rem;
+    color: red;
+    
+}
+
+
+
+
+
+
+@media(max-width:768px){
+    .what_we_do ul{
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .what_we_do ul li{
+        flex: 0 0 45%;
+    }
+}
+
+
 
 @media(max-width:375px){
      .hero {
@@ -75,6 +156,9 @@ header #call_to_action{
 
     #text {
         width: 100%;
+    }
+    .what_we_do  ul{
+        flex-wrap: wrap;
     }
 
 }
